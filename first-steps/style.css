@@ -1,0 +1,41 @@
+.body{
+    background-color: rgb(188, 188, 231);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+main{
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    padding-top: 5px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(185, 227, 255);
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.77);
+}
+
+nav{
+    text-align: justify;
+    color: black;
+}
+
+aside{
+    display: block;
+    font-size: 15px;
+    background-color: rgba(172, 166, 255, 0.623);
+    text-align: justify;
+    padding: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+
+aside img{
+    width: 60px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}

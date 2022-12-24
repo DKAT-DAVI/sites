@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    margin: 0;
+}
+
+.h2terciaria {
+    margin-bottom: 0;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 10px;
+    background-image: conic-gradient(
+        rgb(0, 0, 255), 
+        rgb(253, 1, 254), 
+        rgb(255, 0, 0),
+        rgb(255, 81, 0),
+        rgb(255, 255, 0),
+        rgb(3, 255, 7),
+        rgb(6, 254, 217),
+        rgb(0, 0, 255)
+    );
+}
+
+.primarias {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.azul {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.vermelho {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.amarelo {
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.secundarias {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.laranja {
+    background-color: rgb(255, 145, 0);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.violeta {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.verde {
+    background-color: rgb(0, 255, 0);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.terciarias {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.amarelo-esverdeado {
+    background-color: rgb(157, 255, 0);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.amarelo-alaranjado {
+    background-color: rgb(255, 166, 0);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.vermelho-alaranjado {
+    background-color: rgb(255, 81, 0);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.vermelho-arroxeado {
+    background-color: rgb(112, 0, 75);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.azul-arroxeado {
+    background-color: rgb(35, 0, 163);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
+
+.azul-esverdeado {
+    background-color: rgb(0, 139, 74);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.63);
+}
