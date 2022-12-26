@@ -21,3 +21,7 @@
 </h2>
 <p>A Instagram logo created with HTML and CSS</p>
 
+<h2>
+    <a target="_blank" href="https://dkat-davi.github.io/sites/background-image/">Background image</a>
+</h2>
+<p>Learning to use the background-image property</p>
