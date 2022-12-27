@@ -30,3 +30,8 @@
     <a target="_blank" href="https://dkat-davi.github.io/sites/projeto-cordel/">Cordel Project</a>
 </h2>
 <p>Website with parallax effect and a poem about technology</p>
+
+<h2>
+    <a target="_blank" href="https://dkat-davi.github.io/sites/brazilian-population-table/">Brazilian population table</a>
+</h2>
+<p>Learning about using tables in html5</p>
