@@ -35,3 +35,8 @@
     <a target="_blank" href="https://dkat-davi.github.io/sites/brazilian-population-table/">Brazilian population table</a>
 </h2>
 <p>Learning about using tables in html5</p>
+
+<h2>
+    <a target="_blank" href="https://dkat-davi.github.io/sites/responsive-site/">Responsive site</a>
+</h2>
+<p>Website adapted for some screens using media queries</p>
