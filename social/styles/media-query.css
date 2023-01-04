@@ -19,10 +19,43 @@ W3schools
     Extra large devices (large laptops and desktops, 1200px and up)
 */
 
+@media screen and (orientation:landscape){
+    ::-webkit-scrollbar {
+        height: 0;
+        width: 0;
+    }
+    
+    #smartphone {
+        top: 50%;
+        height: 250px;
+        width: 124px;
+    }
+
+    #smartphone #screen {
+        top: 13%;
+        left: 7%;
+        height: 75%;
+        width: 85%;
+    }
+
+    #social-network-menu {
+        flex-direction: column;
+        top: 15px;
+        right: 15px;
+        transform: none;
+        left: auto;
+    }
+
+    #social-network-menu img {
+        height: 2.5rem;
+        margin: 2px;
+    }
+}
+
 @media screen and (min-width: 786px){
     #smartphone {
         height: 550px;
-        width: 300px;
+        width: 274px;
     }
 
     #smartphone #screen {
