@@ -37,6 +37,11 @@
 <p>Learning about using tables in html5</p>
 
 <h2>
+    <a target="_blank" href="https://dkat-davi.github.io/sites/social/">Responsive Site</a>
+</h2>
+<p>Website adapted for some screens using media queries</p>
+
+<h2>
     <a target="_blank" href="https://dkat-davi.github.io/sites/social/">Social Network</a>
 </h2>
 <p>Website of my social netoworks using iframe</p>
