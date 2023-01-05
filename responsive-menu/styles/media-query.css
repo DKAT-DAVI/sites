@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media  screen and (min-width: 768px) {
+    #icon-menu {
+        display:none;
+    }
+
+    menu {
+        display: block;
+        background: none;
+        padding: 5px;
+    }
+
+    menu ul {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    menu a{
+        width: 120px;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    menu a:hover {
+        font-size: 0.9em;
+        
+    }
+
+    main {
+        width: 768px;
+    }
+}

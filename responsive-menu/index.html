@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/media-query.css">
+</head>
+<body onresize="changeSize()">
+    <header>
+        <h1>Responsive Menu</h1>
+        <span id="icon-menu" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+        </span>
+        <menu id="mnu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Information</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testing media queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, totam! Corporis repudiandae laborum, debitis iste libero soluta quos, doloribus ea quam voluptatum fugiat. Id exercitationem eveniet, est neque veritatis odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquam quos accusamus quibusdam obcaecati sunt asperiores voluptatibus? Dolorem reprehenderit repellat laborum, mollitia quis, modi sint libero aut porro explicabo officia.</p>
+        </article>
+    </main>
+
+    <script>
+        var verificator = 0
+
+        function clickMenu() {
+
+            if (mnu.style.display == 'none') {
+                mnu.style.display = 'block';
+            }
+            else {
+                mnu.style.display = 'none';
+            }   
+        }
+
+        function changeSize() {
+            if (window.innerWidth >= 768) {
+                mnu.style.display = 'block'
+            }
+            else {
+                mnu.style.display = 'none';
+            }
+        }
+        
+    </script>
+</body>
+</html>
