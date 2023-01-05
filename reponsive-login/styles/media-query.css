@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, var(--green-color), var(--lilac-color));
+    }
+
+    #login {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        height: 350px;
+    }
+
+    #image {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    #forms {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--green-color), var(--lilac-color));
+    }
+
+    #login {
+        display: flex;
+        align-items: center;
+        width: 990px;
+        height: 500px;
+    }
+
+    #image {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #forms {
+        float: left;
+        width: 50%;
+
+    }
+
+    #forms > h1 {
+        
+        font-size: 2em;
+    }
+    
+    #forms > p {
+        font-size: 1.2em;
+    }
+}
