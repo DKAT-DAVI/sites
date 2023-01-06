@@ -57,6 +57,6 @@
 <p>login form with responsiveness for all screens</p>
 
 <h2>
-    <a target="_blank" href="https://dkat-davi.github.io/sites/world-cup-card/">NLW Rocketseat World Cup Card</a>
+    <a target="_blank" href="https://dkat-davi.github.io/nlw-cup-card/">NLW Rocketseat World Cup Card</a>
 </h2>
 <p>Rocketseat Cuo NLW Event Card</p>
