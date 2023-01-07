@@ -60,3 +60,8 @@
     <a target="_blank" href="https://dkat-davi.github.io/nlw-cup-card/">NLW Rocketseat World Cup Card</a>
 </h2>
 <p>Rocketseat Cuo NLW Event Card</p>
+
+<h2>
+    <a target="_blank" href="https://dkat-davi.github.io/Mario-Game/">Mario Game</a>
+</h2>
+<p>Game made with HTML, CSS and JavaScript</p>
